@@ -9,6 +9,7 @@ A machine learning-based web application that recommends yoga poses based on the
 - [Model Architecture](#model-architecture)
 - [Results](#results)
 - [User Interface](#next-steps)
+- [Next Steps](#next-steps)
 - [Setup and Installation](#setup-and-installation)
 
 ## Project Overview
@@ -73,6 +74,15 @@ The model performed reasonably well in predicting sentiments, with some challeng
    ![image](https://github.com/user-attachments/assets/7a0bdfd0-ca09-40d2-8988-02342b515918)
    ![image](https://github.com/user-attachments/assets/2bfcc7a8-260f-42cf-8348-4143d9c6ffb7)
 
+## Next Steps
+- **Improve Model**: 
+  - Experiment with different machine learning models such as **SVM**, **XGBoost**, or **Neural Networks** for improved performance.
+- **Data Augmentation**:
+  - Collect more data to balance sentiment classes and improve generalization.
+- **User Feedback**:
+  - Allow users to rate the suggested poses for better recommendations over time.
+- **Deploy to Production**:
+  - Deploy the app on cloud platforms such as **Heroku** or **AWS** for public access.
 
 
 ## Setup and Installation
