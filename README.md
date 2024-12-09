@@ -4,7 +4,7 @@ A machine learning-based web application that recommends yoga poses based on the
 
 ## Table of Contents
 - [Project Overview](#project-overview)
-- [Direvtory Structure](#directory-structure)
+- [Directory Structure](#directory-structure)
 - [Data Preprocessing](#data-preprocessing)
 - [Model Architecture](#model-architecture)
 - [Results](#results)
@@ -19,9 +19,10 @@ The Yoga Pose Recommender System leverages natural language processing (NLP) to 
 - **Yoga Pose Recommendation**: Based on the mood, the app suggests a yoga pose.
 - **Web Interface**: A simple web interface built using Flask, HTML and CSS.
 
-## Direvtory Structure
+## Directory Structure
 
-Yoga-pose-recommender/ ├── app.py # Flask application ├── static/ # Static files │ ├── css/ │ │ └── styles.css # CSS file for styling │ ├── images/ │ │ ├── restorative_pose.jpg │ │ ├── sun_salutations.jpg │ │ ├── vinyasa_flow.jpg │ │ └── ...other images... ├── templates/ # HTML templates │ └── index.html # Homepage template ├── rf_model.pkl # Saved Random Forest model ├── tfidf_vectorizer.pkl # Saved TF-IDF vectorizer
+![image](https://github.com/user-attachments/assets/de980d9c-4186-4329-b745-39f2e5b59a9c)
+
 
 ## Data Preprocessing
 The dataset used for training the model was downloaded from Kaggle: [Emotion Detection from Text](https://www.kaggle.com/datasets/pashupatigupta/emotion-detection-from-text).
