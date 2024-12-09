@@ -21,17 +21,7 @@ The Yoga Pose Recommender System leverages natural language processing (NLP) to 
 
 ## Direvtory Structure
 
-Yoga-pose-recommender/
-├── app.py                # Flask application
-├── templates/            # HTML templates
-│   ├── index.html        # Homepage template
-├── static/               # Static files
-│   ├── css/
-│   │   └── styles.css    # CSS file for styling
-│   ├── js/
-│   │   └── script.js     # JavaScript file (optional)
-├── rf_model.pkl          # Saved Random Forest model
-├── tfidf_vectorizer.pkl  # Saved TF-IDF vectorizer
+Yoga-pose-recommender/ ├── app.py # Flask application ├── static/ # Static files │ ├── css/ │ │ └── styles.css # CSS file for styling │ ├── images/ │ │ ├── restorative_pose.jpg │ │ ├── sun_salutations.jpg │ │ ├── vinyasa_flow.jpg │ │ └── ...other images... ├── templates/ # HTML templates │ └── index.html # Homepage template ├── rf_model.pkl # Saved Random Forest model ├── tfidf_vectorizer.pkl # Saved TF-IDF vectorizer
 
 ## Data Preprocessing
 The dataset used for training the model was downloaded from Kaggle: [Emotion Detection from Text](https://www.kaggle.com/datasets/pashupatigupta/emotion-detection-from-text).
