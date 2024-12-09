@@ -50,7 +50,7 @@ The model predicts the sentiment (mood) from the input text, which is then mappe
 The model performed reasonably well in predicting sentiments, with some challenges in handling imbalanced classes like **anger** and **boredom**.
 
 ### Key Performance Metrics:
-- **Accuracy**: X%
+- **Accuracy**: 40%
 - **Precision/Recall/F1-Score** for each class (see full classification report in the app).
 - **Confusion Matrix**: Shows which sentiments the model predicted correctly and which ones it confused with others.
 
