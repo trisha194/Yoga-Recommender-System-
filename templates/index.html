@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoga Pose Recommender</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Yoga Pose Recommender</h1>
+        <form action="/predict" method="post">
+            <label for="statement">Enter your mood statement:</label>
+            <textarea id="statement" name="statement" rows="4" placeholder="How are you feeling today?"></textarea>
+            <button type="submit">Get Yoga Pose</button>
+        </form>
+
+        {% if predicted_sentiment %}
+            <div class="result">
+                <h2>Results</h2>
+                <p><strong>Your Statement:</strong> {{ statement }}</p>
+                <p><strong>Predicted Sentiment:</strong> {{ predicted_sentiment }}</p>
+                <p><strong>Recommended Yoga Pose:</strong> {{ assigned_yoga_pose }}</p>
+                <img src="{{ url_for('static', filename='images/' ~ yoga_image) }}" alt="{{ assigned_yoga_pose }}" class="pose-image">
+            </div>
+            {% endif %}
+
+    </div>
+</body>
+</html>
